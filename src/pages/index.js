@@ -15,7 +15,7 @@ function Stack() {
     }
 
     if (!isNaN(parsedValue)) {
-      setStack([...stack, parsedValue]);
+      setStack([stack, parsedValue]);
       setNewValue('');
     } else {
       alert("Please enter a valid integer or example.");
